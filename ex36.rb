@@ -9,7 +9,8 @@ def chest_room
   print "> "
 
   open_chest = $stdin.gets.strip
-  # comment
+  
+
 
   case open_chest
   when "yes", "open", "do it"
