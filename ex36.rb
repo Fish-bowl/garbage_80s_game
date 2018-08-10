@@ -9,18 +9,19 @@ def chest_room
   print "> "
 
   open_chest = $stdin.gets.strip
+  # comment
 
-  # case open_chest
-  # when "yes", "open", "do it"
-  #   puts "you receive moneys"
-  # else
-  #   puts "not an option"
-  # end
-  if open_chest == "open" || open_chest == "yes"
-    puts "You receive all the moneys"
+  case open_chest
+  when "yes", "open", "do it"
+    puts "you receive moneys"
   else
-    puts "Not an option"
+    puts "not an option"
   end
+  # if open_chest == "open" || open_chest == "yes"
+  #   puts "You receive all the moneys"
+  # else
+  #   puts "Not an option"
+  # end
 end
 
 def dungeon
